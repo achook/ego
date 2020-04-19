@@ -1,29 +1,32 @@
 html, body {
+    height: 100%;
+    width: 100%;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    height: 100%;
-    width: 100%;
 }
 
 body {
-    text-align: center;
-    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-    
+    background-color: #edeef0;
     background-image: url('/background.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    text-align: center;
+    font-family: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
 }
 
 main {
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-
     width: 100%;
     height: 100%;
     box-sizing: border-box;
+
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    padding: 10px;
 
     display: flex;
     flex-direction: column;
@@ -32,5 +35,8 @@ main {
 }
 
 h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+
     font-weight: 300;
 }
